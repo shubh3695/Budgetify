@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shubham.roommatebudget.MainActivity">
+    <item
+        android:id="@+id/reset_namedetails"
+        android:orderInCategory="100"
+        android:title="Reset Details"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_resetmonth"
+        android:orderInCategory="50"
+        android:title="New Month"
+        app:showAsAction="never"/>
+    <item android:id="@+id/exit"
+        android:orderInCategory="200"
+        android:title="Exit"
+        app:showAsAction="never"/>
+    <item android:id="@+id/password123"
+        android:orderInCategory="120"
+        android:title="@string/password"
+        app:showAsAction="never"/>
+    <item android:id="@+id/rate"
+        android:orderInCategory="190"
+        android:title="Rate 5 stars"
+        app:showAsAction="never"/>
+
+</menu>
